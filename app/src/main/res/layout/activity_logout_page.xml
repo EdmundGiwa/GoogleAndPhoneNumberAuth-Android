@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_logout"
+    tools:context=".Logout_page">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="30dp">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="logout.json"
+            app:lottie_loop="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/logout_con_txt"
+            android:textSize="15sp"
+            android:textColor="#fff"
+            android:fontFamily="@font/opsr"
+            android:textAlignment="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/logOut"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button_bg"
+            android:text="@string/yes"
+            android:textSize="17sp"
+            android:textColor="#fff"
+            android:onClick="logOutUser"
+            android:fontFamily="@font/opsr"/>
+        <Button
+            android:layout_marginStart="20dp"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@drawable/textviews_bg"
+            android:text="@string/no"
+            android:textSize="17sp"
+            android:onClick="stayOnWelcomePage"
+            android:textColor="#fff"
+            android:fontFamily="@font/opsr"/>
+    </LinearLayout>
+</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

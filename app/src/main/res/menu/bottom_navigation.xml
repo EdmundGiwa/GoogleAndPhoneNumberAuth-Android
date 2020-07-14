@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/tags"
+        android:title="@string/tags"
+        android:icon="@drawable/tags_icon"
+        />
+    <item
+        android:id="@+id/trending"
+        android:title="@string/trending"
+        android:icon="@drawable/trending_icon"
+        />
+    <item
+        android:id="@+id/explore"
+        android:title="@string/explore"
+        android:icon="@drawable/explore_icon"
+        />
+    <item
+        android:id="@+id/saved"
+        android:title="@string/saved"
+        android:icon="@drawable/love_icon"
+        />
+</menu>

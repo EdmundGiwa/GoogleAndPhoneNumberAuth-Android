@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#f3f3f3"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/menu_icon"
+            />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="40dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="20dp"
+    android:orientation="vertical">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/tags_lbl"
+    android:textSize="17sp"
+    android:fontFamily="@font/opsr"
+    android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/location_txt"
+        android:textSize="15sp"
+        android:fontFamily="@font/opsr"
+        android:drawableStart="@drawable/location"
+        />
+</LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="20dp"
+           >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bell_icon"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="92dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/search_field"
+            android:text="@string/search_tags"
+            android:textSize="20sp"
+            android:padding="18dp"/>
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/button_tags_bg"
+            android:src="@drawable/plus_icon"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="191dp"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:background="@drawable/tags_tv_bg"
+            android:text="@string/lockdown"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:fontFamily="@font/opsr"
+            android:drawableEnd="@drawable/cancel_icon"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"/>
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:background="@drawable/tags_tv_bg"
+            android:text="@string/foodie"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:gravity="center"
+            android:fontFamily="@font/opsr"
+            android:drawableEnd="@drawable/cancel_icon"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="256dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="45dp"
+            android:background="@drawable/tags_tv_bg"
+            android:drawableEnd="@drawable/cancel_icon"
+            android:fontFamily="@font/opsr"
+            android:gravity="center"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/guruji"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/tags_tv_bg"
+            android:drawableEnd="@drawable/cancel_icon"
+            android:fontFamily="@font/opsr"
+            android:gravity="center"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/fifa"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="400dp">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/broadcast_btn_bg"
+            android:text="@string/broadcast"
+            android:fontFamily="@font/catamaran_medium"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+</RelativeLayout>
